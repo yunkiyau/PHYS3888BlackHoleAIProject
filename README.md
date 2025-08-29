@@ -7,12 +7,12 @@ The project involved three main components:
 2. **Noise cancellation** — manually stacking and denoising telescope images to improve signal quality (Yunki Yau).  
 3. **Dynamic modelling** — Taking the microlensing algorithm and extending it to a variety of black hole distances, masses, and velocities (Jaime Pryor).  
 
-This repository contains the code and files from my portion of the project, which focused on denoising telescope images by stacking multiple exposures to reduce background noise and prepare the data for microlensing analysis. There was significant complication due to the multitude of orientations images could take over a time-series due to the rotation of Earth. Please feel free to reach out if you are interested in this work - only my small (generalisable) portion of this project is presented here as it is an ongoing study within the Sydney Institute for Astronomy.
+This repository contains the code and files from my portion of the project, which focused on denoising telescope images by stacking multiple exposures to reduce background noise and prepare the data for microlensing analysis. There was significant complication due to the multitude of orientations images could take over a time-series due to the rotation of Earth, however the [LSST DP0 series platform](https://dp0.lsst.io/) has now incorporated all the denoising in their image products. Please feel free to reach out if you are interested in this work - only my small (generalisable) portion of this project is presented here as it is an ongoing study within the Sydney Institute for Astronomy.
 
 ## Folder Structure
 - `src/Noise_cancellationLSST.ipynb` — Jupyter notebook implementing the image stacking / noise cancellation workflow.  
 - `data/` — telescope image files used for stacking.  
-- `project_outcomes/` — group presentation slides, example telescope image, and example microlensing video.  
+- `project_outcomes/` — group presentation slides, example single telescope image and stacked noise-cancelled image, and example microlensing video.  
 
 ## Requirements
 - Python 3.10+  
